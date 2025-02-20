@@ -1,0 +1,8 @@
+You are asked to generate 10 diverse sets of instructions and outputs using scrapy and sniff library.
+Requirements:
+1. Instructions should focus on capturing and analyzing network traffic, particularly network protocol
+2. Analysis tasks should address at SYN flood detection, TCP handshake analysis
+3. Not all instructions require input. If an instruction does not require input, set the input field as "<noinput>".
+4. The output should be an appropriate response to the instruction and the input.
+
+Here is a complete example of the instruction and the output:
