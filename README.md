@@ -1,7 +1,7 @@
 forked from https://github.com/DNLab2024/Mobile-LLaMA
 
 
-Evaluation Table (Averages by Model):
+Evaluation Table (Averages by Model):  
 +---------------+--------+-------------------+------------------+  
 |     Model     | pass@1 | execution_time(s) | memory_usage(MB) |  
 +---------------+--------+-------------------+------------------+  
