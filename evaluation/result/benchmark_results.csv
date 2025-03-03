@@ -1,0 +1,91 @@
+question_idx,model,question,pass@1,execution_time,memory_usage,syntax_valid
+1,GPT-3.5,Write a code using Scapy to extract source IP and destination IP from all packets in a pcap file named 'smallFlows.pcap'.,TRUE,4.557847977,0,TRUE
+2,GPT-3.5,Generate a code using Scapy to count the number of TCP packets in 'smallFlows.pcap' and save the result as JSON.,TRUE,4.3459999561309814,0,TRUE
+3,GPT-3.5,Create a code using Scapy to extract HTTP headers from HTTP packets in 'smallFlows.pcap' and save them as JSON.,FALSE,4.319700717926025,0,FALSE
+4,GPT-3.5,Write a code using Scapy to identify packets with SYN flag set in 'smallFlows.pcap' and log their IPs.,TRUE,4.406968832015991,0,TRUE
+5,GPT-3.5,Generate a code using Scapy to calculate the total number of bytes in UDP packets from 'smallFlows.pcap'.,TRUE,4.418973922729492,0,TRUE
+6,GPT-3.5,Create a code using Scapy to extract DNS queries and their IPs from 'smallFlows.pcap' and save as CSV.,TRUE,4.669092178344727,0,TRUE
+7,GPT-3.5,Write a code using Scapy to detect packets with a payload containing 'error' in 'smallFlows.pcap'.,TRUE,4.421433448791504,0,TRUE
+8,GPT-3.5,"Generate a code using Scapy to count packets per protocol (TCP, UDP, ICMP) in 'smallFlows.pcap'.",TRUE,4.3426899909973145,0,TRUE
+9,GPT-3.5,Create a code using Scapy to extract TCP packets on port 80 from 'smallFlows.pcap' and save their payloads.,TRUE,4.492656946182251,0,TRUE
+10,GPT-3.5,Write a code using Scapy to remove duplicate packets by IP pair in 'smallFlows.pcap' and save unique packets.,TRUE,4.534162282943726,0,TRUE
+11,GPT-3.5,Generate a code using Scapy to count TCP retransmissions in 'smallFlows.pcap'.,TRUE,4.6163177490234375,0,TRUE
+12,GPT-3.5,Write a code using Scapy to calculate the average packet size of UDP packets in 'smallFlows.pcap'.,TRUE,4.343869448,0,TRUE
+13,GPT-3.5,Create a code using Scapy to identify packets with TTL less than 10 in 'smallFlows.pcap'.,TRUE,4.386419296264648,0,TRUE
+14,GPT-3.5,Generate a code using Scapy to extract ARP requests and responses from 'smallFlows.pcap'.,TRUE,4.378097295761108,0,TRUE
+15,GPT-3.5,Write a code using Scapy to detect packets with invalid checksums in 'smallFlows.pcap'.,TRUE,5.300729513168335,0,TRUE
+16,GPT-3.5,Create a code using Scapy to extract TCP packets with window size zero in 'smallFlows.pcap'.,TRUE,4.557426214,0,TRUE
+17,GPT-3.5,Generate a code using Scapy to list ICMP packet types in 'smallFlows.pcap'.,TRUE,4.371273994445801,0,TRUE
+18,GPT-3.5,Write a code using Scapy to extract packets destined to 192.168.1.1 from 'smallFlows.pcap'.,TRUE,4.352604866027832,0,TRUE
+19,GPT-3.5,Create a code using Scapy to calculate TCP traffic throughput (bytes/sec) in 'smallFlows.pcap'.,TRUE,4.4916675090789795,0,TRUE
+20,GPT-3.5,Generate a code using Scapy to extract VLAN-tagged packets and their VLAN IDs from 'smallFlows.pcap'.,TRUE,4.089290618896484,0,TRUE
+21,GPT-3.5,Write a code using Scapy to count packets with payload size over 1000 bytes in 'smallFlows.pcap'.,TRUE,4.4451820850372314,0,TRUE
+22,GPT-3.5,Create a code using Scapy to extract TCP packets with ACK flag set in 'smallFlows.pcap'.,TRUE,7.834671974182129,38.4140625,TRUE
+23,GPT-3.5,Generate a code using Scapy to identify packets with source port 53 in 'smallFlows.pcap'.,TRUE,4.294944763183594,0,TRUE
+24,GPT-3.5,Write a code using Scapy to extract packet timestamps and IPs from 'smallFlows.pcap'.,FALSE,4.306164264678955,0,FALSE
+25,GPT-3.5,Create a code using Scapy to count packets with FIN flag set in 'smallFlows.pcap'.,TRUE,4.364383935928345,0,TRUE
+26,GPT-3.5,Generate a code using Scapy to extract packets with IPv6 headers from 'smallFlows.pcap'.,TRUE,4.277723789215088,0,TRUE
+27,GPT-3.5,Write a code using Scapy to calculate the ratio of TCP to UDP packets in 'smallFlows.pcap'.,TRUE,4.338569402694702,0,TRUE
+28,GPT-3.5,Create a code using Scapy to extract packets with a specific MAC address from 'smallFlows.pcap'.,TRUE,4.483922481536865,0,TRUE
+29,GPT-3.5,Generate a code using Scapy to detect packets with fragmented IP in 'smallFlows.pcap'.,TRUE,4.408961772918701,0,TRUE
+30,GPT-3.5,Write a code using Scapy to extract TCP packets with payload over 500 bytes from 'smallFlows.pcap'.,TRUE,5.9030067920684814,37.63671875,TRUE
+1,Llama3,Write a code using Scapy to extract source IP and destination IP from all packets in a pcap file named 'smallFlows.pcap'.,TRUE,4.341843128204346,2.578125,TRUE
+2,Llama3,Generate a code using Scapy to count the number of TCP packets in 'smallFlows.pcap' and save the result as JSON.,TRUE,4.385884046554565,0,TRUE
+3,Llama3,Create a code using Scapy to extract HTTP headers from HTTP packets in 'smallFlows.pcap' and save them as JSON.,TRUE,4.336390972137451,0,TRUE
+4,Llama3,Write a code using Scapy to identify packets with SYN flag set in 'smallFlows.pcap' and log their IPs.,TRUE,4.426428318023682,0,TRUE
+5,Llama3,Generate a code using Scapy to calculate the total number of bytes in UDP packets from 'smallFlows.pcap'.,TRUE,4.286066532,0,TRUE
+6,Llama3,Create a code using Scapy to extract DNS queries and their IPs from 'smallFlows.pcap' and save as CSV.,TRUE,4.312408447265625,0,TRUE
+7,Llama3,Write a code using Scapy to detect packets with a payload containing 'error' in 'smallFlows.pcap'.,TRUE,4.857319355010986,0,TRUE
+8,Llama3,"Generate a code using Scapy to count packets per protocol (TCP, UDP, ICMP) in 'smallFlows.pcap'.",TRUE,4.308230876922607,0,TRUE
+9,Llama3,Create a code using Scapy to extract TCP packets on port 80 from 'smallFlows.pcap' and save their payloads.,TRUE,4.455864191055298,0,TRUE
+10,Llama3,Write a code using Scapy to remove duplicate packets by IP pair in 'smallFlows.pcap' and save unique packets.,TRUE,4.678157329559326,0,TRUE
+11,Llama3,Generate a code using Scapy to count TCP retransmissions in 'smallFlows.pcap'.,TRUE,4.349985122680664,0,TRUE
+12,Llama3,Write a code using Scapy to calculate the average packet size of UDP packets in 'smallFlows.pcap'.,TRUE,4.253149986,0,TRUE
+13,Llama3,Create a code using Scapy to identify packets with TTL less than 10 in 'smallFlows.pcap'.,FALSE,0.050293446,0,FALSE
+14,Llama3,Generate a code using Scapy to extract ARP requests and responses from 'smallFlows.pcap'.,TRUE,4.196622610092163,0,TRUE
+15,Llama3,Write a code using Scapy to detect packets with invalid checksums in 'smallFlows.pcap'.,TRUE,4.186777353286743,0,TRUE
+16,Llama3,Create a code using Scapy to extract TCP packets with window size zero in 'smallFlows.pcap'.,TRUE,4.381724834442139,0,TRUE
+17,Llama3,Generate a code using Scapy to list ICMP packet types in 'smallFlows.pcap'.,TRUE,4.299084186553955,0,TRUE
+18,Llama3,Write a code using Scapy to extract packets destined to 192.168.1.1 from 'smallFlows.pcap'.,FALSE,0.050275564193725586,0,FALSE
+19,Llama3,Create a code using Scapy to calculate TCP traffic throughput (bytes/sec) in 'smallFlows.pcap'.,TRUE,4.248724460601807,0,TRUE
+20,Llama3,Generate a code using Scapy to extract VLAN-tagged packets and their VLAN IDs from 'smallFlows.pcap'.,TRUE,4.292139053344727,0,TRUE
+21,Llama3,Write a code using Scapy to count packets with payload size over 1000 bytes in 'smallFlows.pcap'.,TRUE,4.418788909912109,0,TRUE
+22,Llama3,Create a code using Scapy to extract TCP packets with ACK flag set in 'smallFlows.pcap'.,TRUE,7.721709489822388,79.58203125,TRUE
+23,Llama3,Generate a code using Scapy to identify packets with source port 53 in 'smallFlows.pcap'.,TRUE,4.218845606,0,TRUE
+24,Llama3,Write a code using Scapy to extract packet timestamps and IPs from 'smallFlows.pcap'.,TRUE,4.987380504608154,0,TRUE
+25,Llama3,Create a code using Scapy to count packets with FIN flag set in 'smallFlows.pcap'.,TRUE,4.332528591156006,0,TRUE
+26,Llama3,Generate a code using Scapy to extract packets with IPv6 headers from 'smallFlows.pcap'.,TRUE,4.247321128845215,0,TRUE
+27,Llama3,Write a code using Scapy to calculate the ratio of TCP to UDP packets in 'smallFlows.pcap'.,TRUE,4.227177381515503,0,TRUE
+28,Llama3,Create a code using Scapy to extract packets with a specific MAC address from 'smallFlows.pcap'.,TRUE,4.270355224609375,0,TRUE
+29,Llama3,Generate a code using Scapy to detect packets with fragmented IP in 'smallFlows.pcap'.,TRUE,4.197551012039185,0,TRUE
+30,Llama3,Write a code using Scapy to extract TCP packets with payload over 500 bytes from 'smallFlows.pcap'.,TRUE,6.057143926620483,43.05078125,TRUE
+1,Mobile-Llama3,Write a code using Scapy to extract source IP and destination IP from all packets in a pcap file named 'smallFlows.pcap'.,TRUE,0.055280208587646484,0,TRUE
+2,Mobile-Llama3,Generate a code using Scapy to count the number of TCP packets in 'smallFlows.pcap' and save the result as JSON.,TRUE,0.049987077713012695,0,TRUE
+3,Mobile-Llama3,Create a code using Scapy to extract HTTP headers from HTTP packets in 'smallFlows.pcap' and save them as JSON.,TRUE,4.487518787384033,21.5354367,TRUE
+4,Mobile-Llama3,Write a code using Scapy to identify packets with SYN flag set in 'smallFlows.pcap' and log their IPs.,TRUE,0.050406218,0,TRUE
+5,Mobile-Llama3,Generate a code using Scapy to calculate the total number of bytes in UDP packets from 'smallFlows.pcap'.,TRUE,0.051129103,0,TRUE
+6,Mobile-Llama3,Create a code using Scapy to extract DNS queries and their IPs from 'smallFlows.pcap' and save as CSV.,TRUE,0.049847841,0,TRUE
+7,Mobile-Llama3,Write a code using Scapy to detect packets with a payload containing 'error' in 'smallFlows.pcap'.,TRUE,0.049870491,0,TRUE
+8,Mobile-Llama3,"Generate a code using Scapy to count packets per protocol (TCP, UDP, ICMP) in 'smallFlows.pcap'.",TRUE,0.050330639,0,TRUE
+9,Mobile-Llama3,Create a code using Scapy to extract TCP packets on port 80 from 'smallFlows.pcap' and save their payloads.,TRUE,0.050241232,0,TRUE
+10,Mobile-Llama3,Write a code using Scapy to remove duplicate packets by IP pair in 'smallFlows.pcap' and save unique packets.,TRUE,0.050354242,0,TRUE
+11,Mobile-Llama3,Generate a code using Scapy to count TCP retransmissions in 'smallFlows.pcap'.,TRUE,0.050280571,0,TRUE
+12,Mobile-Llama3,Write a code using Scapy to calculate the average packet size of UDP packets in 'smallFlows.pcap'.,TRUE,4.349675893783569,0,TRUE
+13,Mobile-Llama3,Create a code using Scapy to identify packets with TTL less than 10 in 'smallFlows.pcap'.,TRUE,4.456873416900635,0,TRUE
+14,Mobile-Llama3,Generate a code using Scapy to extract ARP requests and responses from 'smallFlows.pcap'.,TRUE,0.050376892,0,TRUE
+15,Mobile-Llama3,Write a code using Scapy to detect packets with invalid checksums in 'smallFlows.pcap'.,TRUE,4.319669246673584,0,TRUE
+,Mobile-Llama3,Create a code using Scapy to extract TCP packets with window size zero in 'smallFlows.pcap'.,TRUE,4.437494516372681,0,TRUE
+17,Mobile-Llama3,Generate a code using Scapy to list ICMP packet types in 'smallFlows.pcap'.,TRUE,0.050338745,0,TRUE
+18,Mobile-Llama3,Write a code using Scapy to extract packets destined to 192.168.1.1 from 'smallFlows.pcap'.,TRUE,4.341373682022095,15.67194766,TRUE
+19,Mobile-Llama3,Create a code using Scapy to calculate TCP traffic throughput (bytes/sec) in 'smallFlows.pcap'.,TRUE,0.049878597259521484,0,TRUE
+20,Mobile-Llama3,Generate a code using Scapy to extract VLAN-tagged packets and their VLAN IDs from 'smallFlows.pcap'.,TRUE,4.3612000942230225,12.90086421,TRUE
+21,Mobile-Llama3,Write a code using Scapy to count packets with payload size over 1000 bytes in 'smallFlows.pcap'.,TRUE,0.049662352,0,TRUE
+22,Mobile-Llama3,Create a code using Scapy to extract TCP packets with ACK flag set in 'smallFlows.pcap'.,TRUE,0.050213575,0,TRUE
+23,Mobile-Llama3,Generate a code using Scapy to identify packets with source port 53 in 'smallFlows.pcap'.,TRUE,0.049932957,0,TRUE
+24,Mobile-Llama3,Write a code using Scapy to extract packet timestamps and IPs from 'smallFlows.pcap'.,TRUE,0.050527811,0,TRUE
+25,Mobile-Llama3,Create a code using Scapy to count packets with FIN flag set in 'smallFlows.pcap'.,TRUE,0.050004244,0,TRUE
+26,Mobile-Llama3,Generate a code using Scapy to extract packets with IPv6 headers from 'smallFlows.pcap'.,TRUE,4.371650934,0,TRUE
+27,Mobile-Llama3,Write a code using Scapy to calculate the ratio of TCP to UDP packets in 'smallFlows.pcap'.,TRUE,0.05024457,0,TRUE
+28,Mobile-Llama3,Create a code using Scapy to extract packets with a specific MAC address from 'smallFlows.pcap'.,TRUE,4.4377710819244385,0,TRUE
+29,Mobile-Llama3,Generate a code using Scapy to detect packets with fragmented IP in 'smallFlows.pcap'.,TRUE,4.402220726013184,0,TRUE
+30,Mobile-Llama3,Write a code using Scapy to extract TCP packets with payload over 500 bytes from 'smallFlows.pcap'.,TRUE,6.201440095901489,0,TRUE
