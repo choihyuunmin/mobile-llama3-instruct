@@ -1,0 +1,24 @@
+{
+    "questions": [
+        "Write a code using Scapy to extract source IP and destination IP from all packets in a external pcap file.",
+        "Generate a code using Scapy to extract HTTP headers from HTTP packets and save them as JSON.",
+        "Create a code using Scapy to analyze TCP packets and log packets with SYN, ACK, or FIN flags set.",
+        "Write a code using Scapy to extract only packets whose payload contains the word 'error'.",
+        "Generate a code using Scapy to calculate the number of packets per protocol (TCP, UDP, ICMP, etc.).",
+        "Create a code using Scapy to analyze real-time captured packets and save the results as CSV.",
+        "Write a code using Scapy to extract DNS request packets from a pcap file and output domain names and IPs.",
+        "Generate a code using Scapy to efficiently analyze packets from a large pcap file (over 1GB).",
+        "Create a code using Scapy to remove duplicate packets with the same source IP and destination IP pair.",
+        "Write a code using Scapy to extract TCP packets on port 80 with a payload size greater than 500 bytes.",
+        "Generate a code using Scapy to count the total number of TCP retransmissions in a pcap file.",
+        "Write a code using Scapy to extract UDP packets and calculate the average packet size.",
+        "Create a code using Scapy to identify packets with a TTL value less than 10.",
+        "Generate a code using Scapy to extract all ARP requests and responses from a pcap file.",
+        "Write a code using Scapy to detect packets with malformed headers (e.g., invalid checksums).",
+        "Create a code using Scapy to extract TCP packets with a window size of zero.",
+        "Generate a code using Scapy to analyze ICMP packets and list their types (e.g., echo, unreachable).",
+        "Write a code using Scapy to extract packets sent to a specific IP address (e.g., 192.168.1.1).",
+        "Create a code using Scapy to calculate the throughput (bytes per second) of TCP traffic.",
+        "Generate a code using Scapy to extract all packets with a VLAN tag and list their VLAN IDs."
+    ]
+}
